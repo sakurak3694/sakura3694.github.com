@@ -1,7 +1,7 @@
 --- 
 layout: post
-title: Journal Entry 5
-date: 10-19-2018
+title: Journal Entry Week 5
+date: 2018-10-19
 ---
 
 ![Github Logo](/images/flag.png)

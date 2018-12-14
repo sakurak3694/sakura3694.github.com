@@ -24,4 +24,4 @@ f2=place-image(vw,fo,fo,f1)
 f3=place-image(hb,250,fo,f2)
 f4=place-image(vb,150,fo,f3)
 ```
-This week was pretty good week for because i sucessfully coded the flag that i choose surprisingly. While coding the Norweign flag i did not do it completely by my self but for most part i did. 
+This week was pretty good week for because i sucessfully coded the flag that i choose surprisingly. While coding the Norweign flag i did not do it completely by my self but for most part i did. While coding the flag i first forcused on making the rectangles based on the color which is the first half of the code. After i got all the rectangles i had to 

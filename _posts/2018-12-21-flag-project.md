@@ -4,21 +4,21 @@ title: "Flag Project - Final Submission"
 date: 2018-12-21
 ---
 
-## Flag of _insert your country_ by _insert your name_
+## Flag of Norway by Sakura Klein
 
 ## Describe your program
+Norway
 
--   What country did you design for? _then delete this instruction_
--   What grade do you expect? _then delete this instruction_
 
 <!--- Delete this comment and add your writing -->
 
 ## Current output
 
--   Insert an image that your program currently produces. _then delete this instruction_
+-   Insert an image that your program currently produces.
+-   I think i should get a apprentice of practioner because i completed the code and the out put is the norway flag but i got some help on it.
 
 * * *
-![Flag](/images/final-flag.png)
+![Flag](/images/flagv2.png)
 * * *
 
 ## Describe your process.

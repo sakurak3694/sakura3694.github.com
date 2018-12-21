@@ -7,49 +7,66 @@ date: 2018-12-21
 ## Flag of Norway by Sakura Klein
 
 ## Describe your program
-Norway
 
+Norway i choose this flag because i been there and it is a cool place so i thought it would be cool to code a flag that i have some type of prior knowledge for what the country is like. 
 
-<!--- Delete this comment and add your writing -->
+I think i should get a apprentice of practioner because i completed the code and the out put is the norway flag but i got some help on it.
 
 ## Current output
 
--   Insert an image that your program currently produces.
--   I think i should get a apprentice of practioner because i completed the code and the out put is the norway flag but i got some help on it.
+
 
 * * *
 ![Flag](/images/flagv2.png)
 * * *
 
 ## Describe your process.
+-   This week was pretty good week for because i sucessfully coded the flag that i choose surprisingly. While coding the Norweign flag i did not do it completely by my self but for most part i did. While coding the flag i first forcused on making the rectangles based on the color and length which is the first half of the code. After i got all the rectangles right i had to combine it in a way that will make the norweign flag. I always kept in consideration that the whole rectangle is 300 to 500 keeping that in mind helped me firgure out the exact location of where i want the rectangele. The hard part about making the flag for me was the second part of the code because you have to combine a lot of rectangles to make a flag. I hope next week i can do what is assigned and understand it. What helped me the most is thinking about the area of the rectangle also how there is 2 different sets of code. One for to create the rectangles just by itself and the other set is to connect them. 
 
--   What questions, strategies, help from peers or teacher, or thinking got you to this point? _then delete this instruction_
 
-<!--- Delete this comment and add your writing -->
 
 
 ## Explain your code.
-
--   Choose a significant part of your program (15 lines max) and paste it below. Do not insert your entire program here. _then delete this instruction_
--   Explain each argument in the code section. _then delete this instruction_
--   Tell us how it functions independently and within the whole program _then delete this instruction_
+ After i got all my numbers set and right i replaced the numbers with words which is the code right below include image. I started with 500 since that is the width after i had numbers like 300 so to get that i wrote width * 3/5 which would get me 300. For 100 i did width * 1/5 since that would get 100. For 150 i was confused at first since no perfect number that is a multiple for 500.
 
 * * *
 
 ```
-Insert 10-15 line code section here _then delete this instruction_
+width = 500
+height = width * 3/5
+stripe-width = width * 1/5
+fo = width * 3/10
+
+bg=rectangle(width,height,"solid","red")
+vw=rectangle(stripe-width,300,"solid","white")
+hw=rectangle(width,stripe-width,"solid","white")
+hb=rectangle(width,50,"solid","dark-blue")
+vb=rectangle(50,height,"solid","dark-blue")
+
 ```
 
 * * *
-
--   Explain the code you posted by telling us about each argument.
--   Then tell us how your code section fits into the whole.
- 
-<!--- Delete this comment and add your writing -->
 
 
 ## Program code
 
 ```
-Insert entire program here _then delete this instruction_
+include image
+
+width = 500
+height = width * 3/5
+stripe-width = width * 1/5
+fo = width * 3/10
+
+bg=rectangle(width,height,"solid","red")
+vw=rectangle(stripe-width,300,"solid","white")
+hw=rectangle(width,stripe-width,"solid","white")
+hb=rectangle(width,50,"solid","dark-blue")
+vb=rectangle(50,height,"solid","dark-blue")
+
+f1=place-image(hw,250,fo,bg)
+f2=place-image(vw,fo,fo,f1)
+f3=place-image(hb,250,fo,f2)
+f4=place-image(vb,150,fo,f3)
+
 ```
